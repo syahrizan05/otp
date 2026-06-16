@@ -1,0 +1,25 @@
+{
+  "updaters": [
+    {
+      "type": "vehicle-positions",
+      "feedId": "rapid-bus-kl",
+      "url": "https://api.data.gov.my/gtfs-realtime/vehicle-position/prasarana?category=rapid-bus-kl",
+      "frequencySec": 15
+    },
+        {
+      "type": "vehicle-positions",
+      "feedId": "rapid-bus-mrtfeeder",
+      "url": "https://api.data.gov.my/gtfs-realtime/vehicle-position/prasarana?category=rapid-bus-mrtfeeder",
+      "frequencySec": 15
+    },
+        {
+      "type": "vehicle-positions",
+      "feedId": "ktmb",
+      "url": "https://api.data.gov.my/gtfs-realtime/vehicle-position/ktmb",
+      "frequencySec": 15
+    }
+  ],
+  "routingDefaults": {
+    "numItineraries": 8
+  }
+}
