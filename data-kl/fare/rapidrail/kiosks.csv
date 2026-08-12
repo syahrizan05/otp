@@ -1,0 +1,760 @@
+LRT LINE,stop_id,stop_name,tenant,name,category
+AGL,AG18,Ampang,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,AG18,Ampang,Pos Malaysia Berhad,Pos Laju Kiosk,Postal Kiosk
+AGL,AG18,Ampang,CIMB Bank Berhad,CIMB ATM,ATM
+AGL,AG18,Ampang,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+AGL,AG18,Ampang,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+AGL,AG18,Ampang,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,AG18,Ampang,Pos Malaysia Berhad,Pos Laju Ezibox,Postal box
+AGL,AG18,Ampang,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG18,Ampang,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG18,Ampang,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG18,Ampang,Ivend Data Sdn Bhd,Vendlah! VM,Vending Machine
+AGL,SP15,Bandar Tasik Selatan,Malakat Food Sdn Bhd,Malakat Food,Convenience Store
+AGL,SP15,Bandar Tasik Selatan,Pos Malaysia Berhad,Pos Laju Kiosk,Postal Kiosk
+AGL,SP15,Bandar Tasik Selatan,Berjaya Starbucks Coffee Company Sdn Bhd,Starbucks,F&B (Beverage)
+AGL,SP15,Bandar Tasik Selatan,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+AGL,SP15,Bandar Tasik Selatan,Daily Fresh Food S/B,Daily Fresh,F&B (Snacks)
+AGL,SP15,Bandar Tasik Selatan,Rotiboy Bakeshoppe S/B,Rotiboy,F&B (Bakery)
+AGL,SP15,Bandar Tasik Selatan,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,SP15,Bandar Tasik Selatan,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+AGL,SP15,Bandar Tasik Selatan,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,SP15,Bandar Tasik Selatan,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP15,Bandar Tasik Selatan,VRetail Solutions Sdn Bhd,Vretail,Vending Machine
+AGL,SP14,Bandar Tun Razak,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,SP14,Bandar Tun Razak,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,SP14,Bandar Tun Razak,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP14,Bandar Tun Razak,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG6,Bandaraya,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+AGL,AG6,Bandaraya,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,AG6,Bandaraya,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+AGL,AG6,Bandaraya,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG6,Bandaraya,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG6,Bandaraya,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG6,Bandaraya,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG6,Bandaraya,Ivend Data Sdn Bhd,Vendlah! VM,Vending Machine
+AGL,SP6,Bandaraya,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+AGL,SP6,Bandaraya,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,SP6,Bandaraya,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+AGL,SP6,Bandaraya,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP6,Bandaraya,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP6,Bandaraya,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP6,Bandaraya,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP6,Bandaraya,Ivend Data Sdn Bhd,Vendlah! VM,Vending Machine
+AGL,SP17,Bukit Jalil,NFL Bagel0 Enterprise,BagelO,F&B
+AGL,SP17,Bukit Jalil,NF Convenience Store,NF Convenience Store,Convenience Store
+AGL,SP17,Bukit Jalil,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,SP17,Bukit Jalil,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP17,Bukit Jalil,VRetail Solutions Sdn Bhd,Vretail,Vending Machine
+AGL,AG17,Cahaya,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG17,Cahaya,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG17,Cahaya,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG16,Cempaka,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,AG16,Cempaka,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,AG16,Cempaka,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG16,Cempaka,JS Warisan Enterprise (b'4 JS Ertika Enterprise),My Family Kiosk,F&B (Snacks)
+AGL,AG16,Cempaka,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG16,Cempaka,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG16,Cempaka,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG16,Cempaka,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG16,Cempaka,Ivend Data Sdn Bhd,Vendlah! VM,Vending Machine
+AGL,AG11,Chan Sow Lin,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG11,Chan Sow Lin,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP11,Chan Sow Lin,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP11,Chan Sow Lin,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP12,Cheras,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP12,Cheras,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,SP12,Cheras,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP12,Cheras,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG9,Hang Tuah,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,AG9,Hang Tuah,Ivend Data Sdn Bhd,Vendlah! VM,Vending Machine
+AGL,AG9,Hang Tuah,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG9,Hang Tuah,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG9,Hang Tuah,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG9,Hang Tuah,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG9,Hang Tuah,Vendtimes Sales & Services Sdn Bhd,Vendtimes VM,Vending Machine
+AGL,SP9,Hang Tuah,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,SP9,Hang Tuah,Ivend Data Sdn Bhd,Vendlah! VM,Vending Machine
+AGL,SP9,Hang Tuah,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP9,Hang Tuah,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP9,Hang Tuah,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP9,Hang Tuah,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP9,Hang Tuah,Vendtimes Sales & Services Sdn Bhd,Vendtimes VM,Vending Machine
+AGL,AG13,Maluri,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,AG13,Maluri,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,AG13,Maluri,Ok Express,Ok Express,-
+AGL,AG13,Maluri,7-Eleven Malaysia Sdn Bhd,7-Eleven,Convenience Store
+AGL,AG13,Maluri,Nusantara Meat,Nusantara Meat,-
+AGL,AG13,Maluri,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG13,Maluri,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG13,Maluri,Ivend Data Sdn Bhd,Vendlah! VM,Vending Machine
+AGL,AG13,Maluri,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG7,Masjid Jamek (AGL),MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,AG7,Masjid Jamek (AGL),MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,AG7,Masjid Jamek (AGL),Nuocean Sdn Bhd ,Secret Recipe,F&B (Bakery)
+AGL,AG7,Masjid Jamek (AGL),Teafe (M) Sdn Bhd,GongCha,F&B (Beverage)
+AGL,AG7,Masjid Jamek (AGL),Berjaya Starbucks Coffee Company Sdn Bhd,Starbucks,F&B (Beverage)
+AGL,AG7,Masjid Jamek (AGL),Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,AG7,Masjid Jamek (AGL),Focus Action Sdn Bhd,Dr Locker,Self Service Kiosk
+AGL,AG7,Masjid Jamek (AGL),Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG7,Masjid Jamek (AGL),Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG7,Masjid Jamek (AGL),Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG7,Masjid Jamek (AGL),Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP7,Masjid Jamek (AGL),MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,SP7,Masjid Jamek (AGL),MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,SP7,Masjid Jamek (AGL),Nuocean Sdn Bhd ,Secret Recipe,F&B (Bakery)
+AGL,SP7,Masjid Jamek (AGL),Teafe (M) Sdn Bhd,GongCha,F&B (Beverage)
+AGL,SP7,Masjid Jamek (AGL),Berjaya Starbucks Coffee Company Sdn Bhd,Starbucks,F&B (Beverage)
+AGL,SP7,Masjid Jamek (AGL),Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,SP7,Masjid Jamek (AGL),Focus Action Sdn Bhd,Dr Locker,Self Service Kiosk
+AGL,SP7,Masjid Jamek (AGL),Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP7,Masjid Jamek (AGL),Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP7,Masjid Jamek (AGL),Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP7,Masjid Jamek (AGL),Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG12,Miharja,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,AG12,Miharja,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG12,Miharja,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG15,Pandan Indah,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG15,Pandan Indah,7-Eleven Malaysia Sdn Bhd,7-Eleven,Convenience Store
+AGL,AG15,Pandan Indah,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG15,Pandan Indah,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG15,Pandan Indah,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG15,Pandan Indah,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG14,Pandan Jaya,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG14,Pandan Jaya,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG14,Pandan Jaya,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG14,Pandan Jaya,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG14,Pandan Jaya,Ivend Data Sdn Bhd,Vendlah! VM,Vending Machine
+AGL,AG8,Plaza Rakyat,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,AG8,Plaza Rakyat,Aiman Amar Enterprise,Vacant,F&B (Snacks)
+AGL,AG8,Plaza Rakyat,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,AG8,Plaza Rakyat,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,AG8,Plaza Rakyat,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG8,Plaza Rakyat,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG8,Plaza Rakyat,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG8,Plaza Rakyat,Vendtimes Sales & Services Sdn Bhd,Vendtimes VM,Vending Machine
+AGL,AG8,Plaza Rakyat,Ivend Data Sdn Bhd,Vendlah! VM,Vending Machine
+AGL,AG8,Plaza Rakyat,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG8,Plaza Rakyat,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP8,Plaza Rakyat,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,SP8,Plaza Rakyat,Aiman Amar Enterprise,Vacant,F&B (Snacks)
+AGL,SP8,Plaza Rakyat,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,SP8,Plaza Rakyat,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,SP8,Plaza Rakyat,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP8,Plaza Rakyat,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP8,Plaza Rakyat,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP8,Plaza Rakyat,Vendtimes Sales & Services Sdn Bhd,Vendtimes VM,Vending Machine
+AGL,SP8,Plaza Rakyat,Ivend Data Sdn Bhd,Vendlah! VM,Vending Machine
+AGL,SP8,Plaza Rakyat,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP8,Plaza Rakyat,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG10,Pudu,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+AGL,AG10,Pudu,7-Eleven Malaysia Sdn Bhd,7-Eleven,Convenience Store
+AGL,AG10,Pudu,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,AG10,Pudu,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,AG10,Pudu,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG10,Pudu,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG10,Pudu,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP10,Pudu,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+AGL,SP10,Pudu,7-Eleven Malaysia Sdn Bhd,7-Eleven,Convenience Store
+AGL,SP10,Pudu,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,SP10,Pudu,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,SP10,Pudu,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP10,Pudu,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP10,Pudu,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG4,PWTC,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,AG4,PWTC,CIMB Bank Berhad,CIMB ATM,ATM
+AGL,AG4,PWTC,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+AGL,AG4,PWTC,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,AG4,PWTC,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG4,PWTC,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG4,PWTC,Ivend Data Sdn Bhd,Vendlah! VM,Vending Machine
+AGL,AG4,PWTC,VRetail Solutions Sdn Bhd,Vretail,Vending Machine
+AGL,SP4,PWTC,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,SP4,PWTC,CIMB Bank Berhad,CIMB ATM,ATM
+AGL,SP4,PWTC,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+AGL,SP4,PWTC,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,SP4,PWTC,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP4,PWTC,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP4,PWTC,Ivend Data Sdn Bhd,Vendlah! VM,Vending Machine
+AGL,SP4,PWTC,VRetail Solutions Sdn Bhd,Vretail,Vending Machine
+AGL,SP13,Salak Selatan,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP13,Salak Selatan,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP13,Salak Selatan,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG2,Sentul,VRetail Solutions Sdn Bhd,Vretail,Vending Machine
+AGL,AG2,Sentul,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP2,Sentul,VRetail Solutions Sdn Bhd,Vretail,Vending Machine
+AGL,SP2,Sentul,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG1,Sentul Timur,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,AG1,Sentul Timur,AAJ Delights,Cool Station,F&B (Beverage)
+AGL,AG1,Sentul Timur,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,AG1,Sentul Timur,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+AGL,AG1,Sentul Timur,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,AG1,Sentul Timur,Pos Malaysia Berhad,Pos Laju Ezibox,Postal box
+AGL,AG1,Sentul Timur,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG1,Sentul Timur,Ivend Data Sdn Bhd,Vendlah! VM,Vending Machine
+AGL,SP1,Sentul Timur,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,SP1,Sentul Timur,AAJ Delights,Cool Station,F&B (Beverage)
+AGL,SP1,Sentul Timur,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,SP1,Sentul Timur,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+AGL,SP1,Sentul Timur,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,SP1,Sentul Timur,Pos Malaysia Berhad,Pos Laju Ezibox,Postal box
+AGL,SP1,Sentul Timur,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP1,Sentul Timur,Ivend Data Sdn Bhd,Vendlah! VM,Vending Machine
+AGL,SP18,Sri Petaling,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,SP18,Sri Petaling,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG5,Sultan Ismail,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG5,Sultan Ismail,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP5,Sultan Ismail,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP5,Sultan Ismail,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP16,Sungai Besi,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG3,Titiwangsa (AGL),MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,AG3,Titiwangsa (AGL),Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,AG3,Titiwangsa (AGL),Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+AGL,AG3,Titiwangsa (AGL),Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,AG3,Titiwangsa (AGL),Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG3,Titiwangsa (AGL),Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,AG3,Titiwangsa (AGL),VRetail Solutions Sdn Bhd,Vretail,Vending Machine
+AGL,AG3,Titiwangsa (AGL),Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,AG3,Titiwangsa (AGL),Ivend Data Sdn Bhd,Vendlah! VM,Vending Machine
+AGL,SP3,Titiwangsa (AGL),MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,SP3,Titiwangsa (AGL),Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+AGL,SP3,Titiwangsa (AGL),Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+AGL,SP3,Titiwangsa (AGL),Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP3,Titiwangsa (AGL),Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP3,Titiwangsa (AGL),Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+AGL,SP3,Titiwangsa (AGL),VRetail Solutions Sdn Bhd,Vretail,Vending Machine
+AGL,SP3,Titiwangsa (AGL),Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP3,Titiwangsa (AGL),Ivend Data Sdn Bhd,Vendlah! VM,Vending Machine
+BRT,BRT2,Mentari,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+BRT,BRT1,Setia Jaya,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+BRT,BRT6,South Quay,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+BRT,BRT4,Sun Med,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+BRT,BRT4,Sun Med,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+BRT,BRT5,Sun U Monash,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+BRT,BRT5,Sun U Monash,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+BRT,BRT5,Sun U Monash,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+BRT,BRT5,Sun U Monash,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+BRT,BRT3,Sunway Lagoon,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+BRT,BRT3,Sunway Lagoon,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ17,Abdullah Hukum,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ17,Abdullah Hukum,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ17,Abdullah Hukum,Shell Malaysia Trading Sdn Bhd,Deli By Shell,F&B
+KLJ,KJ17,Abdullah Hukum,MSD Lemark Ventures Sdn Bhd,Nasi Lemak & Co,F&B
+KLJ,KJ17,Abdullah Hukum,Golden Donuts Sdn Bhd,Dunkin Donuts,F&B (Bakery)
+KLJ,KJ17,Abdullah Hukum,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ17,Abdullah Hukum,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ17,Abdullah Hukum,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ17,Abdullah Hukum,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ17,Abdullah Hukum,Green Vending Sdn Bhd,Green Vending,Vending Machine
+KLJ,KJ17,Abdullah Hukum,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ17,Abdullah Hukum,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+KLJ,KJ9,Ampang Park,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ9,Ampang Park,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ9,Ampang Park,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+KLJ,KJ9,Ampang Park,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+KLJ,KJ9,Ampang Park,QL Maxincome Sdn Bhd,Family Mart,Convenience Store
+KLJ,KJ9,Ampang Park,BE Plus PLT,Bright Side Sandwich Bar,F&B (GrabNGo)
+KLJ,KJ9,Ampang Park,Green Vending Sdn Bhd,Green Bakery,F&B (Beverage)
+KLJ,KJ9,Ampang Park,MyAngkasa Optikal Sdn Bhd,MyAngkasa Optikal,Optical Store
+KLJ,KJ9,Ampang Park,Bean Inspired Venture,Coffee For Good,F&B (Cart)
+KLJ,KJ9,Ampang Park,The Optimist Coffee,Optimist Coffee,F&B (Beverage)
+KLJ,KJ9,Ampang Park,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+KLJ,KJ9,Ampang Park,CIMB Bank Berhad,CIMB ATM,ATM
+KLJ,KJ9,Ampang Park,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ9,Ampang Park,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ9,Ampang Park,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+KLJ,KJ9,Ampang Park,Focus Action Sdn Bhd,Dr Locker,Self Service Kiosk
+KLJ,KJ9,Ampang Park,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ9,Ampang Park,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ9,Ampang Park,Carzo Sdn Bhd,Fruits & Botled Juices VM,Vending Machine
+KLJ,KJ9,Ampang Park,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ9,Ampang Park,Green Vending Sdn Bhd,Green Vending,Vending Machine
+KLJ,KJ9,Ampang Park,ISS Consulting (M) Sdn Bhd,Vendlah VM,Vending Machine
+KLJ,KJ21,Asia Jaya,Transit Stores Sdn Bhd,Transit Store,Convenience Store
+KLJ,KJ21,Asia Jaya,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ21,Asia Jaya,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ21,Asia Jaya,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+KLJ,KJ21,Asia Jaya,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ21,Asia Jaya,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ21,Asia Jaya,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ21,Asia Jaya,VRetail Solutions Sdn Bhd,VRetail,Vending Machine
+KLJ,KJ21,Asia Jaya,Carzo Sdn Bhd,Fruits & Botled Juices VM,Vending Machine
+KLJ,KJ16,Bangsar,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ16,Bangsar,Rotiboy Bakeshoppe S/B,Rotiboy,F&B (Bakery)
+KLJ,KJ16,Bangsar,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+KLJ,KJ16,Bangsar,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+KLJ,KJ16,Bangsar,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+KLJ,KJ16,Bangsar,MBG Fruits Sdn Bhd,MBG Fruits,F&B (Fruits)
+KLJ,KJ16,Bangsar,MBG Fruits Sdn Bhd,MBG Fruits,F&B (Fruits)
+KLJ,KJ16,Bangsar,BB Coffee,Baskbear Coffee Outlet,F&B (Coffee Shop)
+KLJ,KJ16,Bangsar,Nasi Lemak Saleha Sdn Bhd,Nasi Lemak Saleha,F&B (Cart)
+KLJ,KJ16,Bangsar,MyAngkasa Optikal Sdn Bhd,MyAngkasa Optikal,Optical Store
+KLJ,KJ16,Bangsar,Malayan Banking Berhad (Maybank),Maybank ATM,ATM
+KLJ,KJ16,Bangsar,CIMB Bank Berhad,CIMB ATM,ATM
+KLJ,KJ16,Bangsar,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+KLJ,KJ16,Bangsar,Focus Action Sdn Bhd,Dr Locker,Self Service Kiosk
+KLJ,KJ16,Bangsar,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ16,Bangsar,Green Vending Sdn Bhd,Green Vending,Vending Machine
+KLJ,KJ8,Damai,Merchant Nine Sdn Bhd,Merchant Nine ,Jewellery
+KLJ,KJ8,Damai,7-Eleven Malaysia Sdn Bhd,7-Eleven,Convenience Store
+KLJ,KJ8,Damai,7-Eleven Malaysia Sdn Bhd,7-Eleven (Storage),Storage
+KLJ,KJ8,Damai,Akvortex Resources,Dobi Kami,Service
+KLJ,KJ8,Damai,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ8,Damai,Pos Malaysia Berhad,Pos Laju Ezibox,Postal box
+KLJ,KJ8,Damai,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ8,Damai,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ8,Damai,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ8,Damai,Carzo Sdn Bhd,Fruits & Botled Juices VM,Vending Machine
+KLJ,KJ8,Damai,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ12,Dang Wangi,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ12,Dang Wangi,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ12,Dang Wangi,Beam Mobility Malaysia Sdn Bhd,E-Scooter,E-Scooter
+KLJ,KJ12,Dang Wangi,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ12,Dang Wangi,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ12,Dang Wangi,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ12,Dang Wangi,VRetail Solutions Sdn Bhd,VRetail,Vending Machine
+KLJ,KJ12,Dang Wangi,Carzo Sdn Bhd,Fruits & Botled Juices VM,Vending Machine
+KLJ,KJ12,Dang Wangi,ISS Consulting (M) Sdn Bhd,Vendlah VM,Vending Machine
+KLJ,KJ7,Dato' Keramat,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ7,Dato' Keramat,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ7,Dato' Keramat,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+KLJ,KJ7,Dato' Keramat,Loob Integrated Sdn Bhd,Vacant,F&B (Beverage)
+KLJ,KJ7,Dato' Keramat,Loob Integrated Sdn Bhd,Vacant,F&B (Beverage)
+KLJ,KJ7,Dato' Keramat,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ7,Dato' Keramat,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ1,Gombak,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ1,Gombak,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ1,Gombak,Resort Worlds Tours S/B,Genting Resort World,Service
+KLJ,KJ1,Gombak,D'Lui Café,D'Lui,F&B (Snacks)
+KLJ,KJ1,Gombak,Malayan Banking Berhad (Maybank),Maybank ATM,ATM
+KLJ,KJ1,Gombak,CIMB Bank Berhad,CIMB ATM,ATM
+KLJ,KJ1,Gombak,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ1,Gombak,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ1,Gombak,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+KLJ,KJ1,Gombak,Focus Action Sdn Bhd,Dr Locker,Self Service Kiosk
+KLJ,KJ1,Gombak,Pos Malaysia Berhad,Pos Laju Ezibox,Postal box
+KLJ,KJ1,Gombak,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ1,Gombak,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ1,Gombak,VRetail Solutions Sdn Bhd,VRetail,Vending Machine
+KLJ,KJ1,Gombak,Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+KLJ,KJ1,Gombak,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ6,Jelatek,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ6,Jelatek,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ6,Jelatek,New Potential,New Potential,-
+KLJ,KJ6,Jelatek,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+KLJ,KJ6,Jelatek,Pos Malaysia Berhad,Pos Laju Kiosk,Postal Kiosk
+KLJ,KJ6,Jelatek,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ6,Jelatek,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ6,Jelatek,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ6,Jelatek,Pos Malaysia Berhad,Pos Laju Kiosk,Postal Kiosk
+KLJ,KJ11,Kampung Baru,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ11,Kampung Baru,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ11,Kampung Baru,7-Eleven Malaysia Sdn Bhd,7-Eleven,Convenience Store
+KLJ,KJ11,Kampung Baru,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ24,Kelana Jaya,Overfloor Space Sdn Bhd,Overfloor Space,CoWorking Space
+KLJ,KJ24,Kelana Jaya,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ24,Kelana Jaya,MyAngkasa Optikal Sdn Bhd,MyAngkasa Optikal,Optical Store
+KLJ,KJ24,Kelana Jaya,MyAngkasa Optikal Sdn Bhd,MyAngkasa Optikal,Optical Store
+KLJ,KJ24,Kelana Jaya,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ24,Kelana Jaya,KK Supermart & Superstore Sdn Bhd,KK Super Mart ,Convenience Store
+KLJ,KJ24,Kelana Jaya,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ24,Kelana Jaya,Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+KLJ,KJ24,Kelana Jaya,Vendtimes Sales & Services Sdn Bhd,Vendtimes VM,Vending Machine
+KLJ,KJ18,Kerinchi,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ18,Kerinchi,CIMB Bank Berhad,CIMB ATM,ATM
+KLJ,KJ18,Kerinchi,CIMB Bank Berhad,CIMB ATM,ATM
+KLJ,KJ18,Kerinchi,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ18,Kerinchi,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ18,Kerinchi,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+KLJ,KJ18,Kerinchi,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+KLJ,KJ18,Kerinchi,Bean Inspired Venture,Coffee For Good,F&B (Beverage)
+KLJ,KJ18,Kerinchi,Transit Stores Sdn Bhd,Transit Store,-
+KLJ,KJ18,Kerinchi,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+KLJ,KJ18,Kerinchi,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ18,Kerinchi,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ18,Kerinchi,Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+KLJ,KJ15,KL Sentral (KJL),Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ15,KL Sentral (KJL),Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ15,KL Sentral (KJL),SCCW Solution Sdn Bhd,SCCW,Self Service Kiosk
+KLJ,KJ15,KL Sentral (KJL),Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ15,KL Sentral (KJL),RHB Bank Berhad,RHB  Bank Sales Centre,Service
+KLJ,KJ15,KL Sentral (KJL),WH Smith Malaysia Sdn Bhd,WH Smith,Convenience Store
+KLJ,KJ15,KL Sentral (KJL),Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+KLJ,KJ15,KL Sentral (KJL),MPH Bookstores Sdn Bhd,MPH VM,Vending Machine
+KLJ,KJ15,KL Sentral (KJL),MPH Bookstores Sdn Bhd,MPH VM,Vending Machine
+KLJ,KJ15,KL Sentral (KJL),Green Vending Sdn Bhd,Green Vending,Vending Machine
+KLJ,KJ10,KLCC,Ambank (M) Berhad,Ambank ATM,ATM
+KLJ,KJ10,KLCC,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ10,KLCC,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ10,KLCC,SCCW Solution Sdn Bhd,SCCW,Self Service Kiosk
+KLJ,KJ10,KLCC,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+KLJ,KJ13,Masjid Jamek (KLJ),Golden Donuts Sdn Bhd,Dunkin Donuts,F&B (Bakery)
+KLJ,KJ13,Masjid Jamek (KLJ),The Famous Amos Chocolate Chip Cookie Corp (M) Sdn Bhd,The Famous Amos,F&B (Bakery)
+KLJ,KJ13,Masjid Jamek (KLJ),Ocam The Coffee Factory Sdn Bhd,Ocam Artisan,F&B (Cafe)
+KLJ,KJ13,Masjid Jamek (KLJ),QL Maxincome Sdn Bhd,Family Mart,Convenience Store
+KLJ,KJ13,Masjid Jamek (KLJ),Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+KLJ,KJ13,Masjid Jamek (KLJ),Nasi Lemak Saleha Sdn Bhd,Nasi Lemak Saleha,F&B (Cart)
+KLJ,KJ13,Masjid Jamek (KLJ),Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+KLJ,KJ13,Masjid Jamek (KLJ),Malayan Banking Berhad (Maybank),Maybank ATM,ATM
+KLJ,KJ13,Masjid Jamek (KLJ),CIMB Bank Berhad,CIMB ATM,ATM
+KLJ,KJ13,Masjid Jamek (KLJ),CIMB Bank Berhad,CIMB ATM,ATM
+KLJ,KJ13,Masjid Jamek (KLJ),Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ13,Masjid Jamek (KLJ),Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+KLJ,KJ13,Masjid Jamek (KLJ),Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ13,Masjid Jamek (KLJ),Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ13,Masjid Jamek (KLJ),Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ13,Masjid Jamek (KLJ),Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ13,Masjid Jamek (KLJ),Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+KLJ,KJ13,Masjid Jamek (KLJ),ISS Consulting (M) Sdn Bhd,Vendlah VM,Vending Machine
+KLJ,KJ13,Masjid Jamek (KLJ),Green Vending Sdn Bhd,Green Vending,Vending Machine
+KLJ,KJ14,Pasar Seni,VRetail Solutions Sdn Bhd,VRetail,Vending Machine
+KLJ,KJ14,Pasar Seni,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ14,Pasar Seni,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ14,Pasar Seni,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ14,Pasar Seni,Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+KLJ,KJ14,Pasar Seni,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ14,Pasar Seni,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ14,Pasar Seni,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+KLJ,KJ14,Pasar Seni,WH Smith Malaysia Sdn Bhd,WH Smith,Convenience Store
+KLJ,KJ14,Pasar Seni,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+KLJ,KJ14,Pasar Seni,Rotiboy Bakeshoppe S/B,Rotiboy,-
+KLJ,KJ14,Pasar Seni,MyAngkasa Optikal Sdn Bhd,MyAngkasa Optikal,Optical Store
+KLJ,KJ14,Pasar Seni,Nasi Lemak Saleha Sdn Bhd,Nasi Lemak Saleha,F&B (Cart)
+KLJ,KJ14,Pasar Seni,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ14,Pasar Seni,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+KLJ,KJ14,Pasar Seni,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ14,Pasar Seni,Focus Action Sdn Bhd,Dr Locker,Self Service Kiosk
+KLJ,KJ5,Setiawangsa,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ5,Setiawangsa,Transit Stores Sdn Bhd,Transit Store,Convenience Store
+KLJ,KJ5,Setiawangsa,Malayan Banking Berhad (Maybank),Maybank ATM,ATM
+KLJ,KJ5,Setiawangsa,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ5,Setiawangsa,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ5,Setiawangsa,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ5,Setiawangsa,Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+KLJ,KJ5,Setiawangsa,Green Vending Sdn Bhd,Green Vending,Vending Machine
+KLJ,KJ4,Sri Rampai,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ4,Sri Rampai,VRetail Solutions Sdn Bhd,VRetail,Vending Machine
+KLJ,KJ4,Sri Rampai,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ4,Sri Rampai,Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+KLJ,KJ4,Sri Rampai,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ4,Sri Rampai,Pos Malaysia Berhad,Pos Laju Ezibox,Postal box
+KLJ,KJ4,Sri Rampai,CIMB Bank Berhad,CIMB ATM,ATM
+KLJ,KJ4,Sri Rampai,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ4,Sri Rampai,AAJ Delights,Cool Station,F&B (Beverage)
+KLJ,KJ4,Sri Rampai,HD Hassanal Resources,The Slice,F&B (Bakery)
+KLJ,KJ4,Sri Rampai,Kampung Express Sdn Bhd,Kampung Xpress,F&B (Local)
+KLJ,KJ4,Sri Rampai,Transit Stores Sdn Bhd,Transit Store,Convenience Store
+KLJ,KJ4,Sri Rampai,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+KLJ,KJ4,Sri Rampai,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ4,Sri Rampai,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ4,Sri Rampai,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+KLJ,KJ23,Taman Bahagia,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ23,Taman Bahagia,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ23,Taman Bahagia,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ23,Taman Bahagia,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ23,Taman Bahagia,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ23,Taman Bahagia,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ23,Taman Bahagia,Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+KLJ,KJ23,Taman Bahagia,ISS Consulting (M) Sdn Bhd,Vendlah VM,Vending Machine
+KLJ,KJ20,Taman Jaya,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ20,Taman Jaya,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ20,Taman Jaya,New Realm Enterprise,KopiMana,F&B (Local)
+KLJ,KJ20,Taman Jaya,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ20,Taman Jaya,Golden Donuts Sdn Bhd,Dunkin Donuts,F&B (Bakery)
+KLJ,KJ20,Taman Jaya,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ20,Taman Jaya,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ20,Taman Jaya,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ20,Taman Jaya,VRetail Solutions Sdn Bhd,VRetail,Vending Machine
+KLJ,KJ20,Taman Jaya,Green Vending Sdn Bhd,Green Vending,Vending Machine
+KLJ,KJ2,Taman Melati,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ2,Taman Melati,Pos Malaysia Berhad,Pos Laju Kiosk,Postal Kiosk
+KLJ,KJ2,Taman Melati,Rotiboy Bakeshoppe S/B,Rotiboy,F&B (Bakery)
+KLJ,KJ2,Taman Melati,Bank Islam (M) Berhad,Bank Islam ATM,ATM
+KLJ,KJ2,Taman Melati,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ2,Taman Melati,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ2,Taman Melati,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ2,Taman Melati,AAJ Delights,Cool Station,F&B (Beverage)
+KLJ,KJ2,Taman Melati,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ2,Taman Melati,VRetail Solutions Sdn Bhd,VRetail,Vending Machine
+KLJ,KJ2,Taman Melati,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ2,Taman Melati,Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+KLJ,KJ22,Taman Paramount,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ22,Taman Paramount,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ22,Taman Paramount,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ22,Taman Paramount,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ22,Taman Paramount,VRetail Solutions Sdn Bhd,VRetail,Vending Machine
+KLJ,KJ22,Taman Paramount,ISS Consulting (M) Sdn Bhd,Vendlah VM,Vending Machine
+KLJ,KJ19,Universiti,VRetail Solutions Sdn Bhd,VRetail,Vending Machine
+KLJ,KJ19,Universiti,Green Vending Sdn Bhd,Green Vending,Vending Machine
+KLJ,KJ19,Universiti,Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+KLJ,KJ19,Universiti,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ19,Universiti,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ19,Universiti,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+KLJ,KJ19,Universiti,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+KLJ,KJ19,Universiti,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ19,Universiti,Berjaya Starbucks Coffee Company Sdn Bhd,Starbucks,F&B (Beverage)
+KLJ,KJ19,Universiti,Transit Stores Sdn Bhd,Transit Store,Convenience Store
+KLJ,KJ19,Universiti,Berjaya Starbucks Coffee Company Sdn Bhd,Starbucks,F&B (Beverage)
+KLJ,KJ19,Universiti,Miaraz Venture Sdn Bhd,Vacant,F&B (Beverage)
+KLJ,KJ19,Universiti,Jenda Florsit and Gift,Bunga Cokelat Florist,Florist
+KLJ,KJ3,Wangsa Maju,The Famous Amos Chocolate Chip Cookie Corp (M) Sdn Bhd,The Famous Amos,F&B (Bakery)
+KLJ,KJ3,Wangsa Maju,Koperasi Malaysia Berhad Sdn Bhd (KOPERNA),RAPID MART,Convenience Store
+KLJ,KJ3,Wangsa Maju,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ3,Wangsa Maju,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ3,Wangsa Maju,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ3,Wangsa Maju,KP Convenient Svcs & Store,My Waffle,F&B (Snacks)
+KLJ,KJ3,Wangsa Maju,Nasi Lemak Saleha Sdn Bhd,Nasi Lemak Saleha,F&B (Cart)
+KLJ,KJ3,Wangsa Maju,Malayan Banking Berhad (Maybank),Maybank ATM,ATM
+KLJ,KJ3,Wangsa Maju,Malayan Banking Berhad (Maybank),Maybank ATM,ATM
+KLJ,KJ3,Wangsa Maju,Bank Kerjasama Rakyat,Bank Rakyat ATM,ATM
+KLJ,KJ3,Wangsa Maju,CIMB Bank Berhad,CIMB ATM,ATM
+KLJ,KJ3,Wangsa Maju,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ3,Wangsa Maju,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+KLJ,KJ3,Wangsa Maju,Atlas Vending (M) Sdn Bhd,Etika VM,Vending Machine
+KLJ,KJ3,Wangsa Maju,VRetail Solutions Sdn Bhd,VRetail,Vending Machine
+KLJ,KJ3,Wangsa Maju,Vendtimes Sales & Services Sdn Bhd,Vendtimes VM,Vending Machine
+KLJ,KJ3,Wangsa Maju,Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+AGL,SP21,Alam Sutera,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP21,Alam Sutera,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP19,Awan Besar,Riverside Mini Mart (M) Sdn Bhd,RM Mart,Convenience Store
+AGL,SP19,Awan Besar,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP19,Awan Besar,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP27,Bandar Puteri,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,SP27,Bandar Puteri,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP24,IOI Puchong Jaya,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,SP24,IOI Puchong Jaya,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP24,IOI Puchong Jaya,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,SP24,IOI Puchong Jaya,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP24,IOI Puchong Jaya,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP24,IOI Puchong Jaya,Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+AGL,SP24,IOI Puchong Jaya,ISS Consulting (M) Sdn Bhd,Vendlah VM,Vending Machine
+AGL,SP24,IOI Puchong Jaya,Keng Lan Bridal & Boutique,KL Bridal & Boutique,Alteration
+AGL,SP24,IOI Puchong Jaya,LSK Network Sales & Service,Astro Sales & Service,Service
+AGL,SP24,IOI Puchong Jaya,LSK Network Sales & Service,Astro Sales & Service,Service
+AGL,SP24,IOI Puchong Jaya,LSK Network Sales & Service,Astro Sales & Service,Service
+AGL,SP22,Kinrara BK5,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP22,Kinrara BK5,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+AGL,SP22,Kinrara BK5,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,SP22,Kinrara BK5,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+AGL,SP22,Kinrara BK5,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+AGL,SP22,Kinrara BK5,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP22,Kinrara BK5,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP22,Kinrara BK5,ISS Consulting (M) Sdn Bhd,Vendlah VM,Vending Machine
+AGL,SP20,Muhibbah,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP20,Muhibbah,KK Supermart & Superstore Sdn Bhd,KK Super Mart ,Convenience Store
+AGL,SP20,Muhibbah,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+AGL,SP28,Puchong Perdana,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP28,Puchong Perdana,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+AGL,SP28,Puchong Perdana,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,SP28,Puchong Perdana,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP28,Puchong Perdana,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP29,Puchong Prima,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,SP29,Puchong Prima,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP29,Puchong Prima,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP29,Puchong Prima,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP29,Puchong Prima,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP29,Puchong Prima,7-Eleven Malaysia Sdn Bhd,7-Eleven,Convenience Store
+AGL,SP29,Puchong Prima,7-Eleven Malaysia Sdn Bhd,7-Eleven,Convenience Store
+AGL,SP29,Puchong Prima,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+AGL,SP25,Pusat Bandar Puchong,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP25,Pusat Bandar Puchong,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+AGL,SP25,Pusat Bandar Puchong,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP25,Pusat Bandar Puchong,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP31,Putra Heights,Perkhidmatan Hafeena S/B,Jet Bus,Service
+AGL,SP31,Putra Heights,Nusantara Meat,Nusantara Meat,Butcher
+AGL,SP31,Putra Heights,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+AGL,SP31,Putra Heights,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+AGL,SP31,Putra Heights,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+AGL,SP31,Putra Heights,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+AGL,SP31,Putra Heights,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+AGL,SP31,Putra Heights,7-Eleven Malaysia Sdn Bhd,7-Eleven,Convenience Store
+AGL,SP31,Putra Heights,VRetail Solutions Sdn Bhd,Vretail,Vending Machine
+AGL,SP31,Putra Heights,Green Vending Sdn Bhd,Green Vending,Vending Machine
+AGL,SP31,Putra Heights,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+AGL,SP31,Putra Heights,Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+AGL,SP31,Putra Heights,Bean Inspired Venture,Coffee For Good,F&B (Cart)
+AGL,SP26,Taman Perindustrian Puchong,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ35,Alam Megah,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ35,Alam Megah,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ35,Alam Megah,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ35,Alam Megah,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+KLJ,KJ35,Alam Megah,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+KLJ,KJ26,Ara Damansara,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ26,Ara Damansara,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ26,Ara Damansara,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ26,Ara Damansara,Loaves & Bites Enterprise,Loaves & Bites ,F&B (Cafe)
+KLJ,KJ26,Ara Damansara,Green Vending Sdn Bhd,Green Vending,Vending Machine
+KLJ,KJ26,Ara Damansara,VRetail Solutions Sdn Bhd,VRetail,Vending Machine
+KLJ,KJ26,Ara Damansara,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ26,Ara Damansara,ISS Consulting (M) Sdn Bhd,Vendlah VM,Vending Machine
+KLJ,KJ26,Ara Damansara,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+KLJ,KJ27,Glenmarie,Aiman Amar Enterprise,Vacant,F&B (Snacks)
+KLJ,KJ27,Glenmarie,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ27,Glenmarie,7-Eleven Malaysia Sdn Bhd,7-Eleven,Convenience Store
+KLJ,KJ27,Glenmarie,VRetail Solutions Sdn Bhd,VRetail,Vending Machine
+KLJ,KJ27,Glenmarie,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ27,Glenmarie,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ27,Glenmarie,Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+KLJ,KJ27,Glenmarie,ISS Consulting (M) Sdn Bhd,Vendlah VM,Vending Machine
+KLJ,KJ27,Glenmarie,Green Vending Sdn Bhd,Green Vending,Vending Machine
+KLJ,KJ27,Glenmarie,Sensei Consulting Solution PLT,Medical Vending Machine,Vending Machine
+KLJ,KJ27,Glenmarie,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ27,Glenmarie,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ27,Glenmarie,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+KLJ,KJ25,Lembah Subang,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ25,Lembah Subang,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ25,Lembah Subang,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ25,Lembah Subang,Warong Mak Cu,Warong Mak Cu,F&B
+KLJ,KJ25,Lembah Subang,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ25,Lembah Subang,VRetail Solutions Sdn Bhd,VRetail,Vending Machine
+KLJ,KJ25,Lembah Subang,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ25,Lembah Subang,Green Vending Sdn Bhd,Green Vending,Vending Machine
+KLJ,KJ29,SS 15,Loob Integrated Sdn Bhd,Vacant,F&B (Beverage)
+KLJ,KJ29,SS 15,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+KLJ,KJ29,SS 15,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ29,SS 15,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ29,SS 15,Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+KLJ,KJ29,SS 15,Axil Trading,Postal Service Kiosk,Postal Kiosk
+KLJ,KJ29,SS 15,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ29,SS 15,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ29,SS 15,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+KLJ,KJ29,SS 15,Nasi Lemak Saleha Sdn Bhd,Nasi Lemak Saleha,F&B (Cart)
+KLJ,KJ30,SS 18,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ30,SS 18,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ30,SS 18,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ30,SS 18,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+KLJ,KJ36,Subang Alam,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ28,Subang Jaya,VRetail Solutions Sdn Bhd,VRetail,Vending Machine
+KLJ,KJ28,Subang Jaya,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ28,Subang Jaya,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ28,Subang Jaya,Vendtimes Sales & Services Sdn Bhd,Vendtimes VM,Vending Machine
+KLJ,KJ28,Subang Jaya,Green Vending Sdn Bhd,Green Vending,Vending Machine
+KLJ,KJ28,Subang Jaya,Sensei Consulting Solution PLT,Medical Vending Machine,Vending Machine
+KLJ,KJ28,Subang Jaya,Digital Salute Sdn Bhd,Epay,Self Service Kiosk
+KLJ,KJ28,Subang Jaya,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ28,Subang Jaya,Digi Telecommunications Sdn Bhd,Digi SSK,Self Service Kiosk
+KLJ,KJ28,Subang Jaya,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ28,Subang Jaya,Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+KLJ,KJ28,Subang Jaya,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+KLJ,KJ32,Taipan,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ32,Taipan,3J International Sdn Bhd,LRTea,F&B (Beverage)
+KLJ,KJ32,Taipan,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+KLJ,KJ32,Taipan,Malakat Food Sdn Bhd,TeaAmo,F&B (Beverage)
+KLJ,KJ32,Taipan,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ32,Taipan,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ32,Taipan,Green Vending Sdn Bhd,Green Vending,Vending Machine
+KLJ,KJ34,USJ 21,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ34,USJ 21,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ34,USJ 21,Emi & Jai Business Ventures,17Gram Beans,F&B (Beverage)
+KLJ,KJ34,USJ 21,Emi & Jai Business Ventures,17Gram Beans,F&B (Beverage)
+KLJ,KJ34,USJ 21,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ31,USJ 7,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+KLJ,KJ31,USJ 7,3J International Sdn Bhd,LRTea,F&B (Beverage)
+KLJ,KJ31,USJ 7,MyNews Retail Sdn Bhd,myNEWS.com,Convenience Store
+KLJ,KJ31,USJ 7,Smart Solutions Engineering Sdn Bhd,Powerbank,Self Service Kiosk
+KLJ,KJ31,USJ 7,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ31,USJ 7,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ31,USJ 7,Atlas Vending (M) Sdn Bhd,Atlas VM,Vending Machine
+KLJ,KJ31,USJ 7,Carzo Sdn Bhd,Fruits & Bottled Juice VM,Vending Machine
+KLJ,KJ31,USJ 7,Green Vending Sdn Bhd,Green Vending,Vending Machine
+KLJ,KJ31,USJ 7,ISS Consulting (M) Sdn Bhd,Vendlah VM,Vending Machine
+KLJ,KJ31,USJ 7,Sensei Consulting Solution PLT,Medical Vending Machine,Vending Machine
+KLJ,KJ33,Wawasan,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+MRL,MR6,Bukit Bintang,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+MRL,MR6,Bukit Bintang,Ideajingga Sdn Bhd,Abstrax Concept Store,Fashion
+MRL,MR6,Bukit Bintang,Ideajingga Sdn Bhd,Abstrax Concept Store,Fashion
+MRL,MR6,Bukit Bintang,Super Sunday,Super Sunday,Fashion
+MRL,MR6,Bukit Bintang,Super Sunday,Super Sunday,Fashion
+MRL,MR6,Bukit Bintang,Super Sunday,Super Sunday,Fashion
+MRL,MR6,Bukit Bintang,Transit Stores Sdn Bhd,Transit Store,Convenience Store
+MRL,MR6,Bukit Bintang,Tune Talk Sdn Bhd,Tune Talk Outlet,Service
+MRL,MR6,Bukit Bintang,Al-Umara Sdn Bhd,Oud Al-Anood,Beauty & Health
+MRL,MR6,Bukit Bintang,Al-Umara Sdn Bhd,Oud Al-Anood,Beauty & Health
+MRL,MR6,Bukit Bintang,Big Apple Alliance Sdn Bhd,Gloria Jeans' Coffee ,F&B (Cafe)
+MRL,MR8,Bukit Nanas,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+MRL,MR10,Chow Kit,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+MRL,MR4,Hang Tuah (MRL),7-Eleven Malaysia Sdn Bhd,7-Eleven,Convenience Store
+MRL,MR4,Hang Tuah (MRL),7-Eleven Malaysia Sdn Bhd,7-Eleven,Convenience Store
+MRL,MR4,Hang Tuah (MRL),Loob Integrated Sdn Bhd,Tealive,F&B (Beverage)
+MRL,MR5,Imbi,Star Mart Express Sdn Bhd,Starmart,Service
+MRL,MR5,Imbi,Super Nice Express Sdn Bhd,Supernice,Service
+MRL,MR5,Imbi,Green Vending Sdn Bhd,Green Vending,Vending Machine
+MRL,MR5,Imbi,MyAngkasa Optikal Sdn Bhd,MyAngkasa Optikal,Optical Store
+MRL,MR5,Imbi,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+MRL,MR5,Imbi,Suasana Edaran Sdn  Bhd,Suasana Edaran Ticket Counter,Service
+MRL,MR5,Imbi,Suasana Edaran Sdn  Bhd,Suasana Edaran Ticket Counter,Service
+MRL,MR1,KL Sentral (MRL),Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+MRL,MR1,KL Sentral (MRL),Indimas Sdn Bhd,ABC Café Concept,F&B
+MRL,MR3,Maharajalela,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+MRL,MR9,Medan Tuanku,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+MRL,MR7,Raja Chulan,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+MRL,MR7,Raja Chulan,Neu Rallly Enterprise,Neurally Café,F&B (Beverage)
+MRL,MR11,Titiwangsa (MRL),Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+MRL,MR2,Tun Sambanthan,Ninja Logistics Sdn Bhd,Ninja Van,Postal box
+MRT,KG05,KWASA SENTRAL,7-ELEVEN MALAYSIA SDN BHD,7-ELEVEN MALAYSIA SDN BHD,Convenience Store
+MRT,KG06,KOTA DAMANSARA,MYNEWS RETAIL SDN BHD,MYNEWS RETAIL SDN BHD,Convenience Store
+MRT,KG07,SURIAN,7-ELEVEN MALAYSIA SDN BHD,7-ELEVEN MALAYSIA SDN BHD,Convenience Store
+MRT,KG07,SURIAN,MYNEWS RETAIL SDN BHD,MYNEWS RETAIL SDN BHD,F&B
+MRT,KG08,MUTIARA DAMANSARA,MYNEWS RETAIL SDN BHD,MYNEWS RETAIL SDN BHD,Convenience Store
+MRT,KG09,BANDAR UTAMA,MYNEWS RETAIL SDN BHD,MYNEWS RETAIL SDN BHD,Convenience Store
+MRT,KG09,BANDAR UTAMA,MYNEWS RETAIL SDN BHD,MYNEWS RETAIL SDN BHD,Convenience Store
+MRT,KG10,TAMAN TUN DR ISMAIL,QL MAXINCOME SDN BHD,QL MAXINCOME SDN BHD,Convenience Store
+MRT,KG10,TAMAN TUN DR ISMAIL,QL MAXINCOME SDN BHD,QL MAXINCOME SDN BHD,Convenience Store
+MRT,KG13,PUSAT BANDAR DAMANSARA,7-ELEVEN MALAYSIA SDN BHD,7-ELEVEN MALAYSIA SDN BHD,Convenience Store
+MRT,KG14,SEMANTAN,7-ELEVEN MALAYSIA SDN BHD,7-ELEVEN MALAYSIA SDN BHD,Convenience Store
+MRT,KG14,SEMANTAN,RB GURNEY SDN BHD,RB GURNEY SDN BHD,F&B (Bakery)
+MRT,KG23,TAMAN PERTAMA,MYNEWS RETAIL SDN BHD,MYNEWS RETAIL SDN BHD,Convenience Store
+MRT,KG23,TAMAN PERTAMA,MYNEWS RETAIL SDN BHD,MYNEWS RETAIL SDN BHD,Convenience Store
+MRT,KG24,TAMAN MIDAH,7-ELEVEN MALAYSIA SDN BHD,7-ELEVEN MALAYSIA SDN BHD,Convenience Store
+MRT,KG26,TAMAN CONNAUGHT,7-ELEVEN MALAYSIA SDN BHD,7-ELEVEN MALAYSIA SDN BHD,Convenience Store
+MRT,KG26,TAMAN CONNAUGHT,7-ELEVEN MALAYSIA SDN BHD,7-ELEVEN MALAYSIA SDN BHD,Convenience Store
+MRT,KG27,TAMAN SUNTEX,MYNEWS RETAIL SDN BHD,MYNEWS RETAIL SDN BHD,Convenience Store
+MRT,KG29,BANDAR TUN HUSSEIN ONN,7-ELEVEN MALAYSIA SDN BHD,7-ELEVEN MALAYSIA SDN BHD,Convenience Store
+MRT,KG30,BATU SEBELAS CHERAS,7-ELEVEN MALAYSIA SDN BHD,7-ELEVEN MALAYSIA SDN BHD,Convenience Store
+MRT,KG33,SUNGAI JERNIH,AJ DELICACIES,AJ DELICACIES,Convenience Store
+MRT,KG34,STADIUM KAJANG,MYNEWS RETAIL SDN BHD,MYNEWS RETAIL SDN BHD,F&B
+MRT,KG34,STADIUM KAJANG,7-ELEVEN MALAYSIA SDN BHD,7-ELEVEN MALAYSIA SDN BHD,Convenience Store
+MRT,PY04,SUNGAI BULOH,OK EXPRESS SDN BHD,OK EXPRESS SDN BHD,Convenience Store
+MRT,PY03,KAMPUNG SELAMAT,MYNEWS RETAIL SDN BHD,MYNEWS RETAIL SDN BHD,Convenience Store
+SAL,SA1,Bandar Utama,ATLAS,ATLAS,Vending Machine
+SAL,SA2,Kayu Ara,ATLAS,ATLAS,Vending Machine
+SAL,SA3,BU11 (Bandar Utama 11),PANAS,PANAS,Convenience Store
+SAL,SA3,BU11 (Bandar Utama 11),ATLAS,ATLAS,Vending Machine
+SAL,SA5,Damansara Idaman,PANAS,PANAS,Convenience Store
+SAL,SA5,Damansara Idaman,Dunkin,Dunkin,F&B
+SAL,SA5,Damansara Idaman,ATLAS,ATLAS,Vending Machine
+SAL,SA5,Damansara Idaman,Coffeebot,Coffeebot,Vending Machine
+SAL,SA6,Subang,Traveller Mart,Traveller Mart,Convenience Store
+SAL,SA6,Subang,ATLAS,ATLAS,Vending Machine
+SAL,SA7,Glenmarie 2,MyNews,MyNews,Convenience Store
+SAL,SA7,Glenmarie 2,Dunkin,Dunkin,F&B
+SAL,SA7,Glenmarie 2,ATLAS,ATLAS,Vending Machine
+SAL,SA7,Glenmarie 2,Coffeebot,Coffeebot,Vending Machine
+SAL,SA9,Kerjaya,PANAS,PANAS,Convenience Store
+SAL,SA9,Kerjaya,ATLAS,ATLAS,Vending Machine
+SAL,SA10,Stadium Shah Alam,ATLAS,ATLAS,Vending Machine
+SAL,SA10,Stadium Shah Alam,Coffeebot,Coffeebot,Vending Machine
+SAL,SA12,Dato' Menteri,Traveller Mart,Traveller Mart,Convenience Store
+SAL,SA12,Dato' Menteri,Mammabunz,Mammabunz,F&B (Bakery)
+SAL,SA12,Dato' Menteri,ATLAS,ATLAS,Vending Machine
+SAL,SA14,UiTM Shah Alam,Traveller Mart,Traveller Mart,Convenience Store
+SAL,SA14,UiTM Shah Alam,Coffeebot,Coffeebot,Vending Machine
+SAL,SA15,Seksyen 7 Shah Alam,MyNews,MyNews,Convenience Store
+SAL,SA15,Seksyen 7 Shah Alam,Dunkin,Dunkin,F&B
+SAL,SA15,Seksyen 7 Shah Alam,ATLAS,ATLAS,Vending Machine
+SAL,SA17,Bandar Baru Klang,PANAS,PANAS,Convenience Store
+SAL,SA17,Bandar Baru Klang,K&N,K&N,Vending Machine
+SAL,SA18,Pasar Klang,K&N,K&N,Vending Machine
+SAL,SA19,Jalan Meru,K&N,K&N,Vending Machine
+SAL,SA20,Jambatan Kota,K&N,K&N,Vending Machine
+SAL,SA21,Taman Selatan,PANAS,PANAS,Convenience Store
+SAL,SA21,Taman Selatan,K&N,K&N,Vending Machine
+SAL,SA22,Seri Andalas,Dunkin,Dunkin,F&B
+SAL,SA22,Seri Andalas,K&N,K&N,Vending Machine
+SAL,SA22,Seri Andalas,Coffeebot,Coffeebot,Vending Machine
+SAL,SA23,Klang Jaya,PANAS,PANAS,Convenience Store
+SAL,SA23,Klang Jaya,K&N,K&N,Vending Machine
+SAL,SA24,Bandar Bukit Tinggi,K&N,K&N,Vending Machine
+SAL,SA24,Bandar Bukit Tinggi,Coffeebot,Coffeebot,Vending Machine
+SAL,SA26,Johan Setia,PANAS,PANAS,Convenience Store
+SAL,SA26,Johan Setia,K&N,K&N,Vending Machine

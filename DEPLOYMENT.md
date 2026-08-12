@@ -1,129 +1,392 @@
-# OpenTripPlanner (OTP) — Lembah Klang Deployment Guide
+# OpenTripPlanner Deployment Guide
 
-**Server:** `otp.nscs.site`  
-**OTP Version:** 2.9.0 (stable)  
-**Date Deployed:** June 15, 2026  
-**Co-hosted app:** `pmes.nscs.site` (unaffected, ports 3000/4000)
+This repository runs two separate OpenTripPlanner 2.9.0 instances:
 
----
+- Lembah Klang on port `8081`
+- Penang on port `8082`
 
-## Directory Structure
+Use this guide on the server after pushing this repository to git and pulling the latest changes.
 
+## What This Repo Deploys
+
+The current deployment model is:
+
+- one staged runtime graph for `runtime-kl`
+- one staged runtime graph for `runtime-penang`
+- one `docker compose` stack running both services
+- optional fare augmentation artifacts generated under `augmented/`
+
+Important:
+
+- source GTFS downloads stay in `data-kl/` and `data-penang/`
+- the fare augmenter does not overwrite those source GTFS files
+- generated fare-enriched zip files are written under `data-kl/augmented/` and `data-penang/augmented/`
+- the rebuild flow stages fare-enabled runtime inputs into `runtime-kl/` and `runtime-penang/`
+- OTP now builds and serves from those `runtime-*` directories
+- KL still stages the original MRT feeder static feed because its fare CSV namespace does not match the GTFS stop IDs yet
+
+## Repository Layout
+
+```text
+otp/
+├── data-kl/
+│   ├── lembah-klang.osm.pbf
+│   ├── router-config.json
+│   ├── gtfs_ktmb_fixed.zip
+│   ├── gtfs_rapid_rail_kl.zip
+│   ├── gtfs_rapid_bus_kl.zip
+│   ├── gtfs_rapid_bus_mrtfeeder.zip
+│   ├── gtfs_erl.zip
+│   ├── graph.obj
+│   ├── augmented/
+│   ├── archive/
+│   ├── disabled-feeds/
+│   └── fare/
+├── data-penang/
+│   ├── penang.osm.pbf
+│   ├── router-config.json
+│   ├── gtfs_rapid_bus_penang.zip
+│   ├── graph.obj
+│   ├── augmented/
+│   └── fare/
+├── runtime-kl/
+│   ├── graph.obj
+│   ├── lembah-klang.osm.pbf
+│   ├── router-config.json
+│   └── gtfs_*.zip
+├── runtime-penang/
+│   ├── graph.obj
+│   ├── penang.osm.pbf
+│   ├── router-config.json
+│   └── gtfs_*.zip
+├── docker-compose.yml
+├── scripts/
+│   ├── augment_gtfs_with_fares.py
+│   ├── rebuild_and_redeploy_otp.sh
+│   ├── stage_runtime_feeds.sh
+│   └── trim_ktmb_kl_komuter.py
+├── TWO_AREA_SETUP.md
+├── ROUTER_CONFIG_RECOMMENDATIONS.md
+└── FARE_AUGMENTATION.md
 ```
-/home/deploy/otp/lembah_klang_2_9/
-├── data/
-│   ├── lembah-klang.osm.pbf          # OSM street map for Lembah Klang
-│   ├── gtfs_rapid_bus_kl.zip         # Rapid Bus KL schedule
-│   ├── gtfs_rapid_bus_mrtfeeder.zip  # Rapid MRT Feeder schedule
-│   ├── gtfs_rapid_rail_kl.zip        # Rapid Rail KL schedule
-│   ├── graph.obj                     # Built OTP graph (do not edit)
-│   ├── router-config.json            # Runtime config (updaters, routing defaults)
-│   └── disabled-feeds/
-│       └── gtfs_ktmb.zip             # KTMB feed — disabled (bad stop_time data)
-└── DEPLOYMENT.md                     # This file
-```
 
----
+## Server Prerequisites
 
-## Port Allocation
+Install these once on the server:
 
-| Service        | Internal Port | Host Port | Public URL             |
-|----------------|---------------|-----------|------------------------|
-| OTP container  | 8080          | 8081      | https://otp.nscs.site  |
-| Next.js (pmes) | 3000          | 3000      | https://pmes.nscs.site |
-| Express (pmes) | 4000          | 4000      | https://pmes.nscs.site |
+- Docker Engine with the Compose plugin
+- Git
+- Python 3
 
----
+Minimum practical checks:
 
-## Running OTP
-
-### Start (production)
 ```bash
-cd /home/deploy/otp/lembah_klang_2_9/data
-docker run -d --restart unless-stopped --name otp_lembah_klang \
-  -p 8081:8080 \
-  -v "$PWD":/var/opentripplanner \
-  opentripplanner/opentripplanner:2.9.0 \
-  --load --serve
+docker --version
+docker compose version
+git --version
+python3 --version
 ```
 
-### Stop / Remove
+This repo has been validated with:
+
+- `opentripplanner/opentripplanner:2.9.0`
+- `docker compose`
+- `python3`
+
+## First-Time Server Setup
+
+Choose a deployment directory, for example:
+
 ```bash
+mkdir -p /home/deploy/otp
+cd /home/deploy/otp
+git clone <your-repo-url> .
+```
+
+Verify the expected files exist:
+
+```bash
+ls data-kl
+ls data-penang
+ls scripts
+```
+
+Make the redeploy script executable once:
+
+```bash
+chmod +x scripts/rebuild_and_redeploy_otp.sh
+```
+
+## Canonical Deploy Command
+
+After you push changes from your local machine, the standard server workflow is:
+
+```bash
+cd /home/deploy/otp
+git pull
+./scripts/rebuild_and_redeploy_otp.sh
+```
+
+That command sequence does all of the following:
+
+1. verifies Docker is available
+2. regenerates fare augmentation outputs
+3. stages fare-enabled runtime inputs into `runtime-kl/` and `runtime-penang/`
+4. stops the currently running OTP containers
+5. rebuilds `runtime-kl/graph.obj`
+6. rebuilds `runtime-penang/graph.obj`
+7. starts both OTP services with `docker compose up -d`
+
+This is the recommended server-side command to redeploy graph, GTFS, OSM, router-config, and script changes in one pass.
+
+## Faster Deploy When Inputs Did Not Change
+
+If you only changed documentation or other repo files that do not affect runtime:
+
+```bash
+cd /home/deploy/otp
+git pull
+```
+
+If you changed only `docker-compose.yml` or runtime configuration and do not need a graph rebuild:
+
+```bash
+cd /home/deploy/otp
+git pull
+docker compose up -d
+```
+
+If you want to skip fare augmentation regeneration during a rebuild:
+
+```bash
+cd /home/deploy/otp
+git pull
+./scripts/rebuild_and_redeploy_otp.sh --skip-augment
+```
+
+Use `--skip-augment` only when you know the fare CSV inputs and augmentation script have not changed.
+
+## When You Must Rebuild
+
+Run the full rebuild script whenever any of these change:
+
+- any `.osm.pbf` file in `data-kl/` or `data-penang/`
+- any top-level GTFS zip used by OTP
+- `router-config.json`
+- OTP image version in `docker-compose.yml` or the rebuild script
+- fare CSV inputs when you want fresh augmented archives
+- scripts that prepare or normalize build inputs
+
+Examples:
+
+- you replaced `data-kl/gtfs_rapid_bus_kl.zip`
+- you replaced `data-kl/gtfs_rapid_bus_mrtfeeder.zip`
+- you replaced `data-penang/gtfs_rapid_bus_penang.zip`
+- you updated `data-kl/router-config.json`
+- you trimmed KTMB again and replaced `data-kl/gtfs_ktmb_fixed.zip`
+
+## What Was Validated Locally
+
+The current server workflow is based on a locally validated run of:
+
+```bash
+./scripts/rebuild_and_redeploy_otp.sh
+```
+
+Validated results from that run:
+
+- `runtime-kl/graph.obj` was rebuilt successfully
+- `runtime-penang/graph.obj` was rebuilt successfully
+- `otp_lembah_klang` restarted on `8081`
+- `otp_penang` restarted on `8082`
+- both GraphQL endpoints answered route queries after restart
+- `ticketTypes` is now populated on both areas
+- sample itinerary queries returned real fares, including `MYR 5.2` for a KL rail leg and `MYR 1.4` for a Penang bus leg
+
+## Manual Build Commands
+
+Use these only if you need to debug the process step by step.
+
+### Rebuild Lembah Klang Only
+
+```bash
+cd /home/deploy/otp
+bash scripts/stage_runtime_feeds.sh
 docker rm -f otp_lembah_klang
+docker run --rm \
+  -e JAVA_TOOL_OPTIONS='-Xmx12G' \
+  -v "$PWD/runtime-kl":/var/opentripplanner \
+  opentripplanner/opentripplanner:2.9.0 \
+  --build --save
+docker compose up -d otp_lembah_klang
 ```
 
-### View logs
+### Rebuild Penang Only
+
 ```bash
-docker logs -f otp_lembah_klang
+cd /home/deploy/otp
+bash scripts/stage_runtime_feeds.sh
+docker rm -f otp_penang
+docker run --rm \
+  -e JAVA_TOOL_OPTIONS='-Xmx8G' \
+  -v "$PWD/runtime-penang":/var/opentripplanner \
+  opentripplanner/opentripplanner:2.9.0 \
+  --build --save
+docker compose up -d otp_penang
 ```
-OTP is ready when logs show:
+
+### Restart Without Rebuild
+
+```bash
+cd /home/deploy/otp
+docker compose up -d
 ```
+
+## Runtime Services
+
+The stack is defined in `docker-compose.yml`:
+
+- `otp_lembah_klang` -> `localhost:8081`
+- `otp_penang` -> `localhost:8082`
+
+Current heap settings:
+
+- KL: `-Xmx12G`
+- Penang: `-Xmx8G`
+
+If graph builds fail due to memory pressure on the server, increase those values consistently in both the script and `docker-compose.yml`.
+
+## Health Checks After Deploy
+
+### Check Containers
+
+```bash
+docker ps --format 'table {{.Names}}\t{{.Status}}\t{{.Ports}}'
+```
+
+Expected result:
+
+- `otp_lembah_klang` is `Up`
+- `otp_penang` is `Up`
+
+### Check Logs
+
+```bash
+docker logs --tail 80 otp_lembah_klang
+docker logs --tail 80 otp_penang
+```
+
+Look for:
+
+```text
 OTP 2.9.0 is ready for routing!
 ```
 
-### Restart (e.g. after reboot)
-The container has `--restart unless-stopped`, so it will auto-start with Docker daemon. To manually restart:
-```bash
-docker restart otp_lembah_klang
-```
+### Check GraphQL
 
----
-
-## Rebuilding the Graph
-
-Rebuild is required when you update any input file (OSM, GTFS) or switch OTP versions.
+Lembah Klang:
 
 ```bash
-cd /home/deploy/otp/lembah_klang_2_9/data
-
-# Stop current server
-docker rm -f otp_lembah_klang
-
-# Rebuild graph.obj (takes ~2 mins)
-docker run --rm \
-  -v "$PWD":/var/opentripplanner \
-  opentripplanner/opentripplanner:2.9.0 \
-  --build --save
-
-# Restart server
-docker run -d --restart unless-stopped --name otp_lembah_klang \
-  -p 8081:8080 \
-  -v "$PWD":/var/opentripplanner \
-  opentripplanner/opentripplanner:2.9.0 \
-  --load --serve
+curl -s -X POST http://localhost:8081/otp/gtfs/v1 \
+  -H 'Content-Type: application/json' \
+  -d '{"query":"{ routes { shortName } }"}'
 ```
 
-> **Important:** Always rebuild with the same OTP image version you use to serve.
-> Mixing versions causes a serialization version mismatch error and OTP will refuse to start.
+Penang:
 
----
-
-## Updating Input Data
-
-### Update a GTFS feed
 ```bash
-cd /home/deploy/otp/lembah_klang_2_9/data
-# Replace the zip file, then rebuild graph
-wget -O gtfs_rapid_bus_kl.zip <new-url>
-# then run rebuild steps above
+curl -s -X POST http://localhost:8082/otp/gtfs/v1 \
+  -H 'Content-Type: application/json' \
+  -d '{"query":"{ routes { shortName } }"}'
 ```
 
-### Update OSM data
+Both should return JSON with route data.
+
+### Check Debug UI
+
+- `http://<server>:8081/`
+- `http://<server>:8082/`
+
+## Realtime Notes
+
+Current runtime behavior depends on the router configs already committed in this repo.
+
+Validated feed scope mapping:
+
+- KL: `1=ktmb`, `2=mrtfeeder`, `3=rapid-bus-kl`, `4=erl`, `5=rapidrail`
+- Penang: `1=rapid-bus-penang`
+
+The router configs use those numeric `feedId` values because they matched the runtime graphs during testing.
+
+Important:
+
+- this is a working OTP runtime workaround
+- it depends on how OTP imported the current static feeds
+- if upstream GTFS metadata changes enough, you may need to validate these mappings again
+
+Useful checks:
+
 ```bash
-# Download latest Lembah Klang extract from Geofabrik or BBBike
-wget -O lembah-klang.osm.pbf <new-url>
-# then run rebuild steps above
+docker logs --tail 120 otp_lembah_klang | grep -E 'feedId=1|feedId=2|feedId=3|TRIP_NOT_FOUND|applied successfully|Feed did not contain any updates'
+docker logs --tail 120 otp_penang | grep -E 'feedId=1|TRIP_NOT_FOUND|applied successfully|Feed did not contain any updates'
 ```
 
----
+## GTFS Refresh Workflow
 
-## Nginx Configuration
+When you replace static GTFS archives on the server:
 
-File: `/etc/nginx/sites-available/otp`
+1. copy or download the new zip into the correct data directory
+2. keep the filename consistent with what the repo expects
+3. run the full rebuild script
+4. run the GraphQL and log checks
+
+Examples of top-level files currently used by OTP:
+
+- `runtime-kl/gtfs_ktmb_fixed.zip` from `data-kl/augmented/gtfs_ktmb_fixed_fares.zip`
+- `runtime-kl/gtfs_rapid_rail_kl.zip` from `data-kl/augmented/gtfs_rapid_rail_kl_fares.zip`
+- `runtime-kl/gtfs_rapid_bus_kl.zip` from `data-kl/augmented/gtfs_rapid_bus_kl_fares.zip`
+- `runtime-kl/gtfs_rapid_bus_mrtfeeder.zip` from `data-kl/gtfs_rapid_bus_mrtfeeder.zip`
+- `runtime-kl/gtfs_erl.zip` from `data-kl/augmented/gtfs_erl_fares.zip`
+- `runtime-penang/gtfs_rapid_bus_penang.zip` from `data-penang/augmented/gtfs_rapid_bus_penang_fares.zip`
+
+## Fare Augmentation Workflow
+
+Fare augmentation is non-destructive.
+
+Run manually if you only want to inspect the derived fare outputs:
+
+```bash
+cd /home/deploy/otp
+python3 scripts/augment_gtfs_with_fares.py
+```
+
+Outputs are written under:
+
+- `data-kl/augmented/`
+- `data-penang/augmented/`
+
+Known limitations in the current repo state:
+
+- `mrtfb` fare output is effectively empty because fare CSV stop IDs do not match GTFS stop IDs
+- `rapidpg` still has a small set of unmatched route files
+- `rapidrail` still warns about some fare matrix station codes missing from the GTFS archive
+
+At the moment, those artifacts are no longer just for inspection. The rebuild script stages them into `runtime-kl/` and `runtime-penang/`, and the live OTP graphs are built from those staged runtime directories.
+
+## Reverse Proxy Options
+
+You can expose the two services either by subdomain or by path.
+
+### Recommended: Separate Subdomains
+
+- `kl.example.com` -> `127.0.0.1:8081`
+- `penang.example.com` -> `127.0.0.1:8082`
+
+Example Nginx server block for KL:
 
 ```nginx
 server {
-    server_name otp.nscs.site;
+    server_name kl.example.com;
 
     location / {
         proxy_pass http://127.0.0.1:8081;
@@ -135,157 +398,125 @@ server {
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection "upgrade";
     }
-
-    listen 443 ssl; # managed by Certbot
-    # ... SSL certs below managed by Certbot
 }
 ```
 
-Reload Nginx after any config change:
-```bash
-sudo nginx -t && sudo systemctl reload nginx
-```
+Mirror the same pattern for Penang with port `8082`.
 
----
+### Alternative: One Domain, Two Paths
 
-## SSL Certificate
+- `/kl/` -> `127.0.0.1:8081`
+- `/penang/` -> `127.0.0.1:8082`
 
-Issued by Let's Encrypt via Certbot.
-
-- **Certificate:** `/etc/letsencrypt/live/otp.nscs.site/fullchain.pem`
-- **Key:** `/etc/letsencrypt/live/otp.nscs.site/privkey.pem`
-- **Expires:** 2026-09-13 (auto-renewed by Certbot timer)
-
-Check renewal status:
-```bash
-sudo certbot renew --dry-run
-```
-
----
-
-## Cloudflare DNS
-
-| Type | Name  | Value            | Proxy     |
-|------|-------|------------------|-----------|
-| A    | otp   | 178.105.197.154  | Proxied or DNS-only |
-
-SSL/TLS mode in Cloudflare dashboard should be set to **Full (strict)**.
-
----
-
-## Real-Time Vehicle Positions
-
-Configured in `data/router-config.json`:
-
-| Feed ID             | Source URL                                                   |
-|---------------------|--------------------------------------------------------------|
-| rapid-bus-kl        | `api.data.gov.my/.../prasarana?category=rapid-bus-kl`       |
-| rapid-bus-mrtfeeder | `api.data.gov.my/.../prasarana?category=rapid-bus-mrtfeeder`|
-| ktmb                | `api.data.gov.my/.../ktmb` *(in config but no GTFS loaded)* |
-
-### Testing vehicle positions
-
-**1. Check OTP updater status:**
-```bash
-curl -s https://otp.nscs.site/otp/updaters | python3 -m json.tool
-```
-
-**2. Check raw GTFS-RT feed is alive:**
-```bash
-curl -s "https://api.data.gov.my/gtfs-realtime/vehicle-position/prasarana?category=rapid-bus-kl" | wc -c
-# Non-zero = feed is responding
-```
-
-**3. Decode feed (human-readable):**
-```bash
-pip install gtfs-realtime-bindings
-python3 -c "
-from google.transit import gtfs_realtime_pb2
-import urllib.request
-feed = gtfs_realtime_pb2.FeedMessage()
-feed.ParseFromString(urllib.request.urlopen(
-  'https://api.data.gov.my/gtfs-realtime/vehicle-position/prasarana?category=rapid-bus-kl'
-).read())
-print(f'{len(feed.entity)} vehicles in feed')
-for e in feed.entity[:3]: print(e)
-"
-```
-
-**4. End-to-end GraphQL query:**
-```bash
-curl -s -X POST https://otp.nscs.site/otp/gtfs/v1 \
-  -H 'Content-Type: application/json' \
-  -d '{"query":"{ routes { shortName vehiclePositions { vehicleId label lat lon } } }"}' \
-  | python3 -m json.tool | head -80
-```
-
----
+Use this only if your frontend and API callers are prepared for path-based routing.
 
 ## Troubleshooting
 
-### OTP container won't start / exits immediately
-Check logs:
+### Container Fails to Start
+
 ```bash
 docker logs otp_lembah_klang
+docker logs otp_penang
 ```
 
-**Serialization version mismatch:**
-```
+### Graph Version Mismatch
+
+Symptom:
+
+```text
 The graph file is incompatible with this version of OTP.
-The OTP serialization version id 'X' do not match the id 'Y'
 ```
-→ The `graph.obj` was built with a different OTP version. Rebuild the graph with the same image you are serving with (see "Rebuilding the Graph" above).
 
----
+Cause:
 
-**GTFS build crash — NullPointerException on stop_time:**
-```
-Trip <Trip ktmb_26> contains stop_time with no stop, location or group.
-```
-→ The GTFS file has corrupt/missing stop references. Move the offending zip out of the data directory:
+- `graph.obj` was built with a different OTP version
+
+Fix:
+
+- rebuild with `opentripplanner/opentripplanner:2.9.0`
+- keep the image version aligned in both `docker-compose.yml` and `scripts/rebuild_and_redeploy_otp.sh`
+
+### Port Already In Use
+
 ```bash
-mkdir -p data/disabled-feeds
-mv data/gtfs_ktmb.zip data/disabled-feeds/
+lsof -iTCP:8081 -sTCP:LISTEN
+lsof -iTCP:8082 -sTCP:LISTEN
 ```
-Then rebuild the graph.
 
----
+Fix either the conflicting process or the host port mapping in `docker-compose.yml`.
 
-**Port already in use:**
+### Docker Compose Changed Nothing
+
+If a container with the same name was started outside compose earlier, the rebuild script already removes it first with:
+
 ```bash
-ss -ltn | grep 8081
+docker rm -f otp_lembah_klang otp_penang
 ```
-→ Change the host port mapping (e.g. `-p 8082:8080`) and update the Nginx `proxy_pass` accordingly.
 
----
+That prevents stale standalone containers from masking compose updates.
 
-**Nginx 502 Bad Gateway:**
-OTP is still loading — it takes ~20–30 seconds after container start to be ready. Wait and retry. Check:
+### GTFS Build Failure
+
+If the build fails after replacing a feed:
+
+1. identify the broken GTFS archive from the build logs
+2. move it out of the active data directory
+3. place it under `archive/` or `disabled-feeds/`
+4. rebuild again
+
+Example:
+
 ```bash
-docker logs --tail 20 otp_lembah_klang | grep -E "ready|ERROR|SHUTTING"
+mv data-kl/gtfs_problem.zip data-kl/disabled-feeds/
+./scripts/rebuild_and_redeploy_otp.sh --skip-augment
 ```
 
----
+### Realtime Vehicles Stop Matching
 
-**Vehicle position TRIP_NOT_FOUND errors in logs:**
+Likely causes:
+
+- upstream static GTFS changed trip IDs
+- OTP imported feeds under different numeric scopes
+- upstream realtime payload changed
+
+First checks:
+
+```bash
+docker logs --tail 200 otp_lembah_klang
+docker logs --tail 200 otp_penang
 ```
-Could not match any vehicle positions for feedId 'ktmb'
+
+Then re-validate the feed-scope assumptions in `router-config.json`.
+
+## Rollback Strategy
+
+If a fresh deploy is bad:
+
+1. check out the last known-good git revision
+2. restore the previous GTFS or OSM inputs if they changed
+3. rerun the rebuild script
+
+Example:
+
+```bash
+cd /home/deploy/otp
+git log --oneline -n 5
+git checkout <known-good-commit>
+./scripts/rebuild_and_redeploy_otp.sh
 ```
-→ The real-time feed has trip IDs that don't exist in the loaded GTFS. Either the GTFS is stale or the feed ID doesn't match. For KTMB specifically this is expected since `gtfs_ktmb.zip` is disabled. Remove the ktmb updater block from `router-config.json` to silence these warnings (requires container restart, no graph rebuild needed).
 
----
+If you want a safer rollback path, keep dated copies of:
 
-## Useful API Endpoints
+- `data-kl/graph.obj`
+- `data-penang/graph.obj`
+- replaced GTFS zips
 
-| Endpoint | Description |
-|----------|-------------|
-| `GET /otp` | Server info (version, uptime) |
-| `GET /otp/updaters` | Real-time updater status |
-| `POST /otp/gtfs/v1` | GTFS GraphQL API |
-| `POST /otp/transmodel/v3` | Transmodel GraphQL API |
-| `GET /otp/debug-ui/` | Built-in debug map UI |
+## Recommended Server Prompt
 
-Debug UI (route planner in browser):
+If you later want to prompt from the server with a single instruction, this is the correct operational intent:
+
+```text
+cd /home/deploy/otp, git pull, run ./scripts/rebuild_and_redeploy_otp.sh, then verify both OTP containers are up and both GraphQL endpoints return route data.
 ```
-https://otp.nscs.site/otp/debug-ui/
-```
+
+That matches the workflow validated in this repository.

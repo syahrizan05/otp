@@ -1,0 +1,269 @@
+route_id,route_short_name,bus_type
+BRT,SBL,normal
+H4100,MS01,normal
+H4200,MS02,normal
+H4300,MS03,normal
+P0010,PJ01,normal
+P0020,PJ02,normal
+P0030,PJ03,normal
+P0040,PJ04,normal
+P0050,PJ05,normal
+P0060,PJ06,normal
+P1010,P101,normal
+P1020,P102,normal
+P1030,P103,normal
+P1040,P104,normal
+P1050,P105,normal
+P1060,P106,normal
+P1080,P108,normal
+R0200,DS01(AM),normal
+R0210,DS01(PM),normal
+S0030,KJ01,normal
+S0040,AJ01,normal
+S0060,BTG1,normal
+S0070,MPS1,normal
+S0100,PBD1,normal
+S0120,HLB1,normal
+S0131,SU13A,normal
+S1030,AJ2A,normal
+S1040,AJ2B,normal
+S1050,AJ03,normal
+S1060,KJ02,normal
+S1070,KJ03,normal
+S1080,SJ04,normal
+S1140,AJ04,normal
+S1170,KJ04,normal
+S1190,MPS2A,normal
+S1290,MPS2B,normal
+S1390,MPS3,normal
+S1490,MPS4,normal
+S2000,SJ01,normal
+S2020,SJ02,normal
+S2030,SJ03,normal
+S2040,SJ05,normal
+S2060,BTG2,normal
+S4000,SA01,normal
+S4020,SA02,normal
+S4050,SA05,normal
+S4070,SA07,normal
+S4080,SA08,normal
+S5010,Subang HQ,normal
+S6020,BC2,normal
+S6050,BC3,normal
+S6060,PAVILION BUKIT JALIL (PAVBJ),normal
+S6090,BC4,normal
+S6160,PTPM,normal
+T1000,T100,mrt feeder
+T1010,T101,mrt feeder
+T1020,T102,mrt feeder
+T1030,T103,mrt feeder
+T1040,T104,mrt feeder
+T1050,T105,mrt feeder
+T1060,T106,mrt feeder
+T1070,T107,mrt feeder
+T1080,T108,mrt feeder
+T1090,T109,mrt feeder
+T1100,T110,mrt feeder
+T1110,T111,mrt feeder
+T1120,T112,mrt feeder
+T1130,T113,mrt feeder
+T1140,T114,mrt feeder
+T1150,T115,mrt feeder
+T1170,T117,mrt feeder
+T1180,T118,mrt feeder
+T1190,T119,mrt feeder
+T1200,T120,normal
+T1210,T121,normal
+T1520,T152,normal
+T1540,T154,normal
+T1550,T155,normal
+T1800,T180,mrt feeder
+T2000,T200,lrt feeder
+T2010,T201,lrt feeder
+T2020,T202,lrt feeder
+T2030,T203,lrt feeder
+T2210,T221,lrt feeder
+T2220,T222,lrt feeder
+T2230,T223,lrt feeder
+T2240,T224,lrt feeder
+T2500,T250,lrt feeder
+T2510,T251,lrt feeder
+T3000,T300,normal
+T3010,T301,normal
+T3020,T302,normal
+T3030,T303,lrt feeder
+T3040,T304,normal
+T3050,T305,mrt feeder
+T3500,T350,lrt feeder
+T3510,T351,lrt feeder
+T3520,T352,mrt feeder
+T4000,T400,mrt feeder
+T4010,T401,mrt feeder
+T4020,T402,mrt feeder
+T4060,T406,normal
+T4061,T406B,normal
+T4070,T407,mrt feeder
+T4080,T408,mrt feeder
+T4090,T409,mrt feeder
+T4100,T410,mrt feeder
+T4110,T411,mrt feeder
+T4120,T412,mrt feeder
+T4130,T413,mrt feeder
+T4140,T414,mrt feeder
+T4150,T415,mrt feeder
+T4160,T416,mrt feeder
+T4170,T417,mrt feeder
+T4180,T418,mrt feeder
+T4190,T419,mrt feeder
+T4500,T450,normal
+T4510,T451,mrt feeder
+T4530,T453,mrt feeder
+T4540,T454,mrt feeder
+T4550,T455,mrt feeder
+T4560,T456,mrt feeder
+T4570,T457,mrt feeder
+T4580,T458,mrt feeder
+T4590,T459,mrt feeder
+T4600,T460,mrt feeder
+T4610,T461,mrt feeder
+T4620,T462,mrt feeder
+T4630,T463,mrt feeder
+T4640,T464,mrt feeder
+T5040,T504,mrt feeder
+T5050,T505,mrt feeder
+T5060,T506,mrt feeder
+T5070,T507,mrt feeder
+T5080,T508,mrt feeder
+T5090,T509,mrt feeder
+T5100,T510,mrt feeder
+T5110,T511,mrt feeder
+T5120,T512,normal
+T5420,T542,mrt feeder
+T5430,T543,mrt feeder
+T5440,T544,mrt feeder
+T5450,T545,normal
+T5590,T559,mrt feeder
+T5600,T560,mrt feeder
+T5610,T561,mrt feeder
+T5620,T562,mrt feeder
+T5630,T563,mrt feeder
+T5640,T564,mrt feeder
+T5650,T565,mrt feeder
+T5660,T566,mrt feeder
+T5670,T567,mrt feeder
+T5680,T568,mrt feeder
+T5690,T569,normal
+T5710,T571,normal
+T5800,T580,lrt feeder
+T5810,T581,lrt feeder
+T5820,T582,lrt feeder
+T5850,T585,mrt feeder
+T5860,T586,mrt feeder
+T5870,T587,mrt feeder
+T5880,T588,mrt feeder
+T5890,T589,mrt feeder
+T6000,T600,lrt feeder
+T6010,T601,lrt feeder
+T6020,T602,normal
+T6030,T603,lrt feeder
+T6040,T604,lrt feeder
+T6050,T605,lrt feeder
+T6400,T640,lrt feeder
+T7150,T715,normal
+T7530,T753,normal
+T7540,T754,normal
+T7560,T756,normal
+T7570,T757,normal
+T7720,T772,mrt feeder
+T7740,T774,lrt feeder
+T7760,T776,lrt feeder
+T7780,T778,lrt feeder
+T7800,T780,lrt feeder
+T7810,T781,lrt feeder
+T7820,T782,lrt feeder
+T7830,T783,lrt feeder
+T7850,T785,lrt feeder
+T7860,T786,lrt feeder
+T7870,T787,lrt feeder
+T7880,T788,lrt feeder
+T7890,T789,lrt feeder
+T7900,T790,lrt feeder
+T7910,T791,lrt feeder
+T8010,T801,mrt feeder
+T8020,T802,mrt feeder
+T8030,T803,mrt feeder
+T8040,T804,mrt feeder
+T8050,T805,mrt feeder
+T8070,T807,mrt feeder
+T8080,T808,mrt feeder
+T8090,T809,mrt feeder
+T8100,T810,mrt feeder
+T8110,T811,mrt feeder
+T8120,T812,mrt feeder
+T8130,T813,mrt feeder
+T8140,T814,mrt feeder
+T8150,T815,mrt feeder
+T8160,T816,mrt feeder
+T8170,T817,mrt feeder
+T8180,T818,mrt feeder
+T8190,T819,mrt feeder
+T8200,T820,mrt feeder
+T8210,T821,mrt feeder
+T8500,T850,lrt feeder
+T8510,T851,normal
+T8520,T852,mrt feeder
+U1510,151,normal
+U1700,170,normal
+U1710,171,normal
+U1730,173,normal
+U1800,180,normal
+U1900,190,normal
+U1910,191,normal
+U2000,200,normal
+U2010,201,normal
+U2020,202,normal
+U2200,220,normal
+U2220,222,lrt feeder
+U2500,250,normal
+U2510,251,normal
+U2530,253,lrt feeder
+U2540,254,normal
+U3000,300,normal
+U3020,302,normal
+U3030,303,normal
+U4000,400,normal
+U4020,402,normal
+U4200,420,normal
+U4210,421,normal
+U4500,450,normal
+U4510,451,normal
+U5060,506,normal
+U5400,540,normal
+U5410,541,lrt feeder
+U5800,580,normal
+U5810,581,lrt feeder
+U5900,590,normal
+U6000,600,normal
+U6020,602,normal
+U6400,640,normal
+U6410,641,normal
+U6500,650,normal
+U6510,651,lrt feeder
+U6520,652,lrt feeder
+U7080,708,normal
+U7500,750,normal
+U7510,751,normal
+U7520,752,lrt feeder
+U7530,753,normal
+U7540,754,normal
+U7700,770,normal
+U7710,771,normal
+U7720,772,normal
+U7800,780,normal
+U7820,782,normal
+U7830,783,lrt feeder
+U8010,801,normal
+U8020,802,normal
+U8210,821,normal
+U8220,822,lrt feeder
+U8510,851,normal

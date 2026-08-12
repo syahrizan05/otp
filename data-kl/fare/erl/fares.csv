@@ -1,0 +1,37 @@
+type,from,to,cash,cashless,concession
+erl,KL Sentral,KL Sentral,0,0,0
+erl,KL Sentral,Bandar Tasik Selatan,6.5,6.5,6.5
+erl,KL Sentral,Putrajaya & Cyberjaya,14,14,14
+erl,KL Sentral,Salak Tinggi,18.3,18.3,18.3
+erl,KL Sentral,KLIA,55,55,55
+erl,KL Sentral,KLIA T2,55,55,55
+erl,Bandar Tasik Selatan,KL Sentral,6.5,6.5,6.5
+erl,Bandar Tasik Selatan,Bandar Tasik Selatan,0,0,0
+erl,Bandar Tasik Selatan,Putrajaya & Cyberjaya,8,8,8
+erl,Bandar Tasik Selatan,Salak Tinggi,12.4,12.4,12.4
+erl,Bandar Tasik Selatan,KLIA,38.4,38.4,38.4
+erl,Bandar Tasik Selatan,KLIA T2,38.4,38.4,38.4
+erl,Putrajaya & Cyberjaya,KL Sentral,14,14,14
+erl,Putrajaya & Cyberjaya,Bandar Tasik Selatan,8,8,8
+erl,Putrajaya & Cyberjaya,Putrajaya & Cyberjaya,0,0,0
+erl,Putrajaya & Cyberjaya,Salak Tinggi,4.7,4.7,4.7
+erl,Putrajaya & Cyberjaya,KLIA,9.4,9.4,9.4
+erl,Putrajaya & Cyberjaya,KLIA T2,9.4,9.4,9.4
+erl,Salak Tinggi,KL Sentral,18.3,18.3,18.3
+erl,Salak Tinggi,Bandar Tasik Selatan,12.4,12.4,12.4
+erl,Salak Tinggi,Putrajaya & Cyberjaya,4.7,4.7,4.7
+erl,Salak Tinggi,Salak Tinggi,0,0,0
+erl,Salak Tinggi,KLIA,4.9,4.9,4.9
+erl,Salak Tinggi,KLIA T2,4.9,4.9,4.9
+erl,KLIA,KL Sentral,55,55,55
+erl,KLIA,Bandar Tasik Selatan,38.4,38.4,38.4
+erl,KLIA,Putrajaya & Cyberjaya,9.4,9.4,9.4
+erl,KLIA,Salak Tinggi,4.9,4.9,4.9
+erl,KLIA,KLIA,0,0,0
+erl,KLIA,KLIA T2,2,2,2
+erl,KLIA T2,KL Sentral,55,55,55
+erl,KLIA T2,Bandar Tasik Selatan,38.4,38.4,38.4
+erl,KLIA T2,Putrajaya & Cyberjaya,9.4,9.4,9.4
+erl,KLIA T2,Salak Tinggi,4.9,4.9,4.9
+erl,KLIA T2,KLIA,2,2,2
+erl,KLIA T2,KLIA T2,0,0,0
