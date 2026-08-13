@@ -1,5 +1,5 @@
 {
-  "configVersion": "kl-2026-08-12-feedscope-fix",
+  "configVersion": "kl-2026-08-13-latency-tuning-v3",
   "server": {
     "apiProcessingTimeout": "8s"
   },
@@ -8,7 +8,7 @@
     "purgeExpiredData": true
   },
   "routingDefaults": {
-    "numItineraries": 8,
+    "numItineraries": 6,
     "transferPenalty": 120,
     "waitReluctance": 1.0,
     "walk": {
@@ -18,21 +18,21 @@
       "boardCost": 600
     },
     "accessEgress": {
-      "maxDuration": "30m",
-      "maxStopCount": 500
+      "maxDuration": "20m",
+      "maxStopCount": 200
     },
     "itineraryFilters": {
       "nonTransitGeneralizedCostLimit": "600 + 1.5x"
     }
   },
   "transit": {
-    "maxNumberOfTransfers": 8,
-    "maxSearchWindow": "PT2H",
+    "maxNumberOfTransfers": 6,
+    "maxSearchWindow": "PT75M",
     "dynamicSearchWindow": {
       "minTransitTimeCoefficient": 0.5,
       "minWaitTimeCoefficient": 0.5,
-      "minWindow": "45m",
-      "maxWindow": "2h",
+      "minWindow": "30m",
+      "maxWindow": "75m",
       "stepMinutes": 10
     }
   },
