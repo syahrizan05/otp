@@ -25,3 +25,7 @@ data/.DS_Store
 # Generated runtime staging directories for fare-enabled OTP builds
 runtime-kl/
 runtime-penang/
+
+# Generated fare augmentation outputs
+data-kl/augmented/
+data-penang/augmented/
